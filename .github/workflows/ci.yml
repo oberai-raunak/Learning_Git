@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+      PYTHONPATH: .
 
     steps:
       - name: Checkout code
@@ -22,7 +23,6 @@ jobs:
 
       - name: Install dependencies
         run: |
-          export PYTHONPATH=.
           pip install -r requirements.txt
           
 
