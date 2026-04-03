@@ -2,7 +2,7 @@
 from sklearn.linear_model import LogisticRegression
 
 def run_model(sample=True):
-    print("Model running...")
+    print("Model simulation running...")
     return True
 
 if __name__ == "__main__":
