@@ -2,3 +2,9 @@ pandas
 numpy
 scikit-learn
 pytest
+python-dotenv
+omegaconf
+mlflow
+fastapi
+uvicorn
+python-multipart
