@@ -1,5 +1,5 @@
-from src import run_features
+from src import build_features
 
 def test_features_runs():
-    result = run_features()
+    result = build_features()
     assert result == True
