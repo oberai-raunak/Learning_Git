@@ -27,4 +27,4 @@ jobs:
 
       - name: Run application / deployment step
         run: |
-          python .\src\model.py
+          python ./src/model.py
